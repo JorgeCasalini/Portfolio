@@ -1,0 +1,35 @@
+{
+    "heroTitle": "Hola, mi nombre es Jorge",
+    "heroText": "Desarollador Full Stack",
+    "heroMouseText": "Desplácese hacia abajo",
+    "aboutTitle": "Sobre mí",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "contact": "Contacto",
+    "aboutTextDev": "🧑🏻‍💻 Desarrollador JavaScript.",
+    "aboutTextCourse": "🎓 Cursando la Licenciatura en Informática en la UNLP.",
+    "aboutTextInterested": "💡 Interés en el desarrollo front-end y back-end.",
+    "aboutTextSeeking": "🚀 Buscando una oportunidad para desempeñarme como desarrollador.",
+
+    "viewProject": "Ver el proyecto",
+
+    
+    "projectTitle1": "Lanchas Hulk",
+    "projectDes1": "Plataforma intuitiva para alquilar lanchas y Jet Skis, con opciones claras de modelos, precios y disponibilidad. Los usuarios pueden realizar reservas rápidamente, asegurando una experiencia práctica y sin complicaciones.",
+    
+    "projectTitle2": "Editorial MaujorTec",
+    "projectDes2": "Proyecto guiado por el libro 'React: Aprenda Prácticando, creando un catálogo dinámico de libros con categorías. Los datos se reciben y se muestran de forma interactiva.",
+
+    "projectTitle3": "CRUD de libros",
+    "projectDes3": "Sistema para gestionar una tabla de libros, con funcionalidades para agregar, editar, eliminar y listar libros. Permite agregar detalles como título, autor y descripción de forma simple y práctica.",
+
+    "projectTitle4": "Soft Hamburguesas",
+    "projectDes4": "Pagina interactivo para pedir hamburguesas, donde los usuarios visualizan el pedido. El precio se calcula automáticamente, ofreciendo una experiencia sencilla y eficiente.",
+
+    "nameContact": "Nombre",
+    "emailContact": "Email",
+    "subjectContact": "Asunto",
+    "messageContact": "Mensaje",
+    "sendMessageContact": "Enviar Mensaje"
+
+}

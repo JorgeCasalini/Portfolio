@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "image": "/img/project1.png",
+        "linkGitHub": "https://github.com/JorgeCasalini/Lanchas-Hulk",
+        "linkView": "https://lanchas-hulk.vercel.app/"
+    },
+    {
+        "id": 2,
+        "image": "/img/project2.png",
+        "linkGitHub": "https://github.com/JorgeCasalini/Livro-react-maujor",
+        "linkView": "https://livro-react-maujor.vercel.app/"
+    },
+    {
+        "id": 3,
+        "image": "/img/project3.png",
+        "linkGitHub": "https://github.com/JorgeCasalini/Crud-Tabela-Livro-React.git",
+        "linkView": "https://crud-tabela-livros.vercel.app/"
+    },
+    {
+        "id": 4,
+        "image": "/img/project4.png",
+        "linkGitHub": "https://github.com/JorgeCasalini/Dev_Burguer",
+        "linkView": "https://dev-burguer-theta.vercel.app/"
+    }
+
+
+]

@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*Fonte Alegreya*/
+.caveat{
+  font-family:"Caveat", cursive, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.encode-sans-semi-condensed-bold {
+  font-family: "Encode Sans Semi Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* Animação de sublinhado */
+.underline-animation {
+  position: relative;
+}
+
+.underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #89ecb9; /* Cor do sublinhado */
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.underline-animation:hover::after {
+  width: 100%;
+}
+/* Estilo personalizado para a div da foto */
+.custom-border {
+  border-radius: 0px 49px 0px 174px;
+  -webkit-border-radius: 0px 49px 0px 174px;
+  -moz-border-radius: 0px 49px 0px 174px;
+  background: #4eda91; /* Cor de fundo da div */
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translate(-10%, -12%) translateY(0);
+  }
+  50% {
+    transform: translate(-10%, -12%) translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  display: inline-block;
+  animation: scroll 20s linear infinite;
+}
+
+/* Adicione isso ao seu arquivo CSS global ou módulo CSS */
+.group {
+  perspective: 1000px;
+}
+
+.group img {
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.group:hover img {
+  transform: rotateY(180deg);
+}
+
+.group .absolute {
+  backface-visibility: hidden;
+}
