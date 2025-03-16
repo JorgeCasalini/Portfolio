@@ -11,7 +11,9 @@ import { useTheme } from "./context/ThemeContext";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
-AOS.init();
+AOS.init({
+  offset:0
+});
 
 const App = () => {
   const [projects, setProjects] = useState([]);
@@ -33,7 +35,7 @@ const App = () => {
 
   return (
     <div className={isDarkMode ? "dark" : ""}>
-      <div className={`min-h-screen ${isDarkMode ? "bg-gray-900 text-white" : "bg-primary-50 text-primary-950"}`}>
+      <div className={`min-h-screen ${isDarkMode ? "bg-gray-900 text-white" : "bg-primary-50 text-primary-950"} overflow-x-hidden`}>
         <Navbar />
         <Hero />
         <About />

@@ -12,16 +12,17 @@
     "aboutTextSeeking": "🚀 Buscando una oportunidad para desempeñarme como desarrollador.",
 
     "viewProject": "Ver el proyecto",
+    "viewMore": "Ver más",
 
     
     "projectTitle1": "Lanchas Hulk",
-    "projectDes1": "Plataforma intuitiva para alquilar lanchas y Jet Skis, con opciones claras de modelos, precios y disponibilidad. Los usuarios pueden realizar reservas rápidamente, asegurando una experiencia práctica y sin complicaciones.",
+    "projectDes1": "Plataforma para alquilar lanchas y Jet Skis, con opciones de modelos, precios y disponibilidad. Los usuarios pueden realizar reservas rápidamente, asegurando una experiencia sin complicaciones.",
     
     "projectTitle2": "Editorial MaujorTec",
-    "projectDes2": "Proyecto guiado por el libro 'React: Aprenda Prácticando, creando un catálogo dinámico de libros con categorías. Los datos se reciben y se muestran de forma interactiva.",
+    "projectDes2": "Proyecto guiado por el libro 'React: Aprenda Practicando', creando un catálogo dinámico de libros con distintas categorías. Los datos se reciben y se muestran de forma interactiva al usuario",
 
     "projectTitle3": "CRUD de libros",
-    "projectDes3": "Sistema para gestionar una tabla de libros, con funcionalidades para agregar, editar, eliminar y listar libros. Permite agregar detalles como título, autor y descripción de forma simple y práctica.",
+    "projectDes3": "Sistema para gestionar una tabla de libros utilizando la plataforma Firebase. Permite agregar detalles como el identificador del libro, título y autor, accesibles solo para personas autorizadas.",
 
     "projectTitle4": "Soft Hamburguesas",
     "projectDes4": "Pagina interactivo para pedir hamburguesas, donde los usuarios visualizan el pedido. El precio se calcula automáticamente, ofreciendo una experiencia sencilla y eficiente.",
@@ -30,6 +31,7 @@
     "emailContact": "Email",
     "subjectContact": "Asunto",
     "messageContact": "Mensaje",
-    "sendMessageContact": "Enviar Mensaje"
+    "sendMessageContact": "Enviar Mensaje",
 
+    "footerText": " © Todos los derechos reservados a Jorge Casalini."
 }

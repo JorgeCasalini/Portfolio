@@ -11,24 +11,28 @@
     "aboutTextInterested": "💡 Interesse em desenvolvimento front e back end.",
     "aboutTextSeeking": "🚀 Buscando uma oportunidade para atuar como desenvolvedor.",
 
-    "viewProject": "Ver o proyecto",
+    "viewProject": "Ver o projeto",
+    "viewMore": "Ver mais",
 
 
     "projectTitle1": "Lanchas Hulk",
-    "projectDes1": "Plataforma fácil de usar para alugar lanchas e Jet Skis, com opções de modelos, preços e disponibilidade. Os usuários podem realizar reservas rapidamente e sem complicação.",
+    "projectDes1": "Plataforma para alugar lanchas e Jet Skis, com opções de modelos, preços e disponibilidade. Os usuários podem realizar reservas sem complicação.",
     
     "projectTitle2": "Editora MaujorTec",
     "projectDes2": "Projeto guiado pelo livro 'React: Aprenda Praticando', criando um catálogo dinâmico de livros com categorias. Dados são recebidos e exibidos de forma interativa e eficiente.",
 
     "projectTitle3": "CRUD tabela livros",
-    "projectDes3":"Sistema para gerenciar uma tabela de livros, com funcionalidades para cadastrar, editar, excluir e listar livros. Permite cadastrar detalhes como título, autor e descrição.",
+    "projectDes3":"Sistema para gerenciar uma tabela de livros utilizando a plataforma Firebase. Permite cadastrar detalhes como identificador do livro, título e autor.",
 
     "projectTitle4": "Soft Burguer",
-    "projectDes4": "Página interativa para pedir hambúrgueres, onde os usuários escolhem os ingredientes e visualizam o pedido. O preço é calculado automaticamente, oferecendo uma experiência simples.",
+    "projectDes4": "Página interativa para pedir hambúrgueres, onde os usuários visualizam o pedido. O preço é calculado automaticamente, oferecendo uma experiência simples.",
 
     "nameContact": "Nome",
     "emailContact": "Email",
     "subjectContact": "Assunto",
     "messageContact": "Mensagem",
-    "sendMessageContact": "Enviar Mensagem"
+    "sendMessageContact": "Enviar Mensagem",
+
+    "footerText": " © Todos os direitos reservados a Jorge Casalini."
+
 }
