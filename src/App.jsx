@@ -9,10 +9,11 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { useTheme } from "./context/ThemeContext";
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
+import 'aos/dist/aos.css';
+import projectsData from "../src/locales/projects.json";
+
 AOS.init({
-  offset:0
+  offset: 0
 });
 
 const App = () => {
@@ -23,8 +24,7 @@ const App = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const { data: projects } = await axios.get("/src/locales/projects.json");
-        setProjects(Array.isArray(projects) ? projects : []);
+        setProjects(Array.isArray(projectsData) ? projectsData : []);
       } catch (error) {
         console.log("Erro ao carregar os dados:", error);
       }
