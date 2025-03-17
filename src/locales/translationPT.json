@@ -19,13 +19,17 @@
     "projectDes1": "Plataforma para alugar lanchas e Jet Skis, com opções de modelos, preços e disponibilidade. Os usuários podem realizar reservas sem complicação.",
     
     "projectTitle2": "Editora MaujorTec",
-    "projectDes2": "Projeto guiado pelo livro 'React: Aprenda Praticando', criando um catálogo dinâmico de livros com categorias. Dados são recebidos e exibidos de forma interativa e eficiente.",
+    "projectDes2": "Projeto guiado pelo livro 'React: Aprenda Praticando', criando um catálogo dinâmico de livros com categorias. Dados são recebidos e exibidos de forma interativa.",
 
     "projectTitle3": "CRUD tabela livros",
     "projectDes3":"Sistema para gerenciar uma tabela de livros utilizando a plataforma Firebase. Permite cadastrar detalhes como identificador do livro, título e autor.",
 
     "projectTitle4": "Soft Burguer",
     "projectDes4": "Página interativa para pedir hambúrgueres, onde os usuários visualizam o pedido. O preço é calculado automaticamente, oferecendo uma experiência simples.",
+
+    "projectTitle5": "Portfólio",
+    "projectDes5": "Portfólio com projetos realizados, que mostra e permite explorar tanto os códigos quanto os desenvolvimentos completos de cada projeto realizado.",
+
 
     "nameContact": "Nome",
     "emailContact": "Email",
