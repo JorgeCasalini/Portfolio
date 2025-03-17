@@ -8,7 +8,7 @@ const Projects = ({ projects }) => {
   const { isDarkMode } = useTheme();
   const [showAll, setShowAll] = useState(false);
 
-  // Exibe apenas os primeiros 4 projetos inicialmente
+  // Exibe apenas os primeiros 3 projetos inicialmente
   const visibleProjects = showAll ? projects : (projects || []).slice(0, 3);
 
   return (

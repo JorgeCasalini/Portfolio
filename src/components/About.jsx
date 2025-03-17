@@ -23,7 +23,7 @@ const About = () => {
                     {/* Div com bordas personalizadas */}
                     <div className="custom-border w-48 h-48 md:w-64 md:h-64 ">
                         <img
-                            src="/img/About.png" // Substitua pelo caminho da sua foto
+                            src="/img/About.png"
                             alt="Foto Jorge"
                             className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-56 h-56 md:w-72 md:h-72 object-cover z-10"
                         />
