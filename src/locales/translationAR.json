@@ -30,6 +30,9 @@
     "projectTitle5": "Portafolio",
     "projectDes5": "Portafolio con proyectos realizados, en el cual se exhiben y permiten explorar tanto los códigos como los desarrollos completos de cada uno de los proyectos realizados.",
 
+    "messageSuccessContact": "¡Mensaje enviado con éxito! Gracias por ponerte en contacto, te responderemos lo antes posible.",
+    "messageFailedContact": "Ocurrió un error al enviar el mensaje. Por favor, intenta nuevamente.",
+
     "nameContact": "Nombre",
     "emailContact": "Email",
     "subjectContact": "Asunto",
