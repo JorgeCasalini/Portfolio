@@ -23,7 +23,7 @@ const Hero = () => {
         <h1 className="text-5xl md:text-7xl font-bold mb-4 animate-fade-in lato-thin" data-aos="zoom-in" data-aos-duration="2000">
           {t("heroTitle")}
         </h1>
-        <p className={`lato-thin text-2xl md:text-4xl mb-8 animate-fade-in animate-delay-1 ${isDarkMode ? 'text-[#f9fefa]' : 'text-[#1A8A51]'}`} data-aos="zoom-in" data-aos-duration="3000">
+        <p className={`caveat text-2xl md:text-4xl mb-8 animate-fade-in animate-delay-1 ${isDarkMode ? 'text-[#f9fefa]' : 'text-[#1A8A51]'}`} data-aos="zoom-in" data-aos-duration="3000">
           {t("heroText")}
         </p>
 
