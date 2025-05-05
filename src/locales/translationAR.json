@@ -27,8 +27,8 @@
     "projectTitle4": "Soft Hamburguesas",
     "projectDes4": "Pagina interactivo para pedir hamburguesas, donde los usuarios visualizan el pedido. El precio se calcula automáticamente, ofreciendo una experiencia sencilla y eficiente.",
 
-    "projectTitle5": "Portafolio",
-    "projectDes5": "Portafolio con proyectos realizados, en el cual se exhiben y permiten explorar tanto los códigos como los desarrollos completos de cada uno de los proyectos realizados.",
+    "projectTitle5": "Library System",
+    "projectDes5": "Sistema bibliotecario con ExpressJS y arquitectura MVC, gestiona libros, usuarios y préstamos de manera eficiente, optimizando la gestión bibliográfica y la experiencia del usuario.",
 
     "messageSuccessContact": "¡Mensaje enviado con éxito! Gracias por ponerte en contacto, te responderemos lo antes posible.",
     "messageFailedContact": "Ocurrió un error al enviar el mensaje. Por favor, intenta nuevamente.",

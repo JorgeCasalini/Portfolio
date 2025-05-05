@@ -27,8 +27,8 @@
     "projectTitle4": "Soft Burguer",
     "projectDes4": "Página interativa para pedir hambúrgueres, onde os usuários visualizam o pedido. O preço é calculado automaticamente, oferecendo uma experiência simples.",
 
-    "projectTitle5": "Portfólio",
-    "projectDes5": "Portfólio com projetos realizados, que mostra e permite explorar tanto os códigos quanto os desenvolvimentos completos de cada projeto realizado.",
+    "projectTitle5": "Library System",
+    "projectDes5": "Sistema bibliotecário desenvolvido com ExpressJS e arquitetura MVC, que gerencia livros, usuários e empréstimos de maneira eficiente e fácil de usar.",
 
     "messageSuccessContact":"Mensagem enviada com sucesso! Obrigado por entrar em contato, nós responderemos o mais breve possível.",
     "messageFailedContact": "Ocorreu um erro ao enviar a mensagem. Tente novamente.",
