@@ -6,8 +6,8 @@ import SuccessMessage from "./_SuccessMessage";
 import FailedMessage from "./_FailedMessage";
 
 const Contact = () => {
-  const [showSuccess, setShowSuccess] = useState(false)
-  const [showFailed, setShowFailed] = useState(false)
+  const [showSuccess, setShowSuccess] = useState(false);
+  const [showFailed, setShowFailed] = useState(false);
 
   const { t } = useTranslation();
   const { isDarkMode } = useTheme();
@@ -27,11 +27,11 @@ const Contact = () => {
       .then(
         (result) => {
           setShowSuccess(true);
-          setTimeout(() => setShowSuccess(false), 3000)
+          setTimeout(() => setShowSuccess(false), 3000);
         },
         (error) => {
           setShowFailed(true);
-          setTimeout(() => setShowFailed(false), 3000)
+          setTimeout(() => setShowFailed(false), 3000);
         }
       );
 
@@ -42,18 +42,27 @@ const Contact = () => {
   return (
     <section
       id="contato"
-      className={`pt-32 pb-20 min-h-screen ${isDarkMode ? "bg-gradient-to-b from-[#101828] to-[#1A8A51]" : "bg-gradient-to-b from-[#FFFFFF] to-[#1A8A51]"
-        }`}
+      className={`pt-32 pb-20 min-h-screen ${
+        isDarkMode
+          ? "bg-gradient-to-b from-[#1A8A51] to-[#101828]"
+          : "bg-gradient-to-b from-[#1A8A51] to-[#FFFFFF]"
+      }`}
     >
       <div className="container mx-auto px-4 sm:px-8 md:px-16">
         {/* Título da Seção */}
-        <h2 className={`text-5xl md:text-7xl font-bold mb-12 text-center caveat ${isDarkMode ? "text-green-400" : "text-[#1A8A51]"}`} data-aos="zoom-out-up" data-aos-duration="2000">
+        <h2
+          className={`text-5xl md:text-7xl font-bold mb-12 text-center caveat ${
+            isDarkMode ? "text-green-400" : "text-[#1A8A51]"
+          }`}
+          data-aos="zoom-out-up"
+          data-aos-duration="2000"
+        >
           {t("contact")}
         </h2>
 
         {/* Exibe a mensagem de sucesso ou erro */}
         {showSuccess && <SuccessMessage message={t("messageSuccessContact")} />}
-        {showFailed && <FailedMessage message={t("messageFailedContact")} /> }
+        {showFailed && <FailedMessage message={t("messageFailedContact")} />}
 
         {/* Formulário de Contato */}
         <form
@@ -65,7 +74,9 @@ const Contact = () => {
           <div>
             <label
               htmlFor="name"
-              className={`block text-lg font-medium mb-2 ${isDarkMode ? "text-white" : "text-gray-800"}`}
+              className={`block text-lg font-medium mb-2 ${
+                isDarkMode ? "text-white" : "text-gray-800"
+              }`}
             >
               {t("nameContact")}
             </label>
@@ -74,8 +85,11 @@ const Contact = () => {
               id="name"
               name="user_name"
               required
-              className={`w-full px-4 py-3 bg-transparent border-b-2 focus:outline-none focus:border-2 focus:border-green-400 rounded-xl ${isDarkMode ? "border-green-400 text-white" : "border-green-400 text-gray-800"
-                }`}
+              className={`w-full px-4 py-3 bg-transparent border-b-2 focus:outline-none focus:border-2 focus:border-green-400 rounded-xl ${
+                isDarkMode
+                  ? "border-green-400 text-white"
+                  : "border-green-400 text-gray-800"
+              }`}
             />
           </div>
 
@@ -83,7 +97,9 @@ const Contact = () => {
           <div>
             <label
               htmlFor="email"
-              className={`block text-lg font-medium mb-2 ${isDarkMode ? "text-white" : "text-gray-800"}`}
+              className={`block text-lg font-medium mb-2 ${
+                isDarkMode ? "text-white" : "text-gray-800"
+              }`}
             >
               {t("emailContact")}
             </label>
@@ -92,8 +108,11 @@ const Contact = () => {
               id="email"
               name="user_email"
               required
-              className={`w-full px-4 py-3 bg-transparent border-b-2 focus:outline-none focus:border-2 focus:border-green-400 rounded-xl ${isDarkMode ? "border-green-400 text-white" : "border-green-400 text-gray-800"
-                }`}
+              className={`w-full px-4 py-3 bg-transparent border-b-2 focus:outline-none focus:border-2 focus:border-green-400 rounded-xl ${
+                isDarkMode
+                  ? "border-green-400 text-white"
+                  : "border-green-400 text-gray-800"
+              }`}
             />
           </div>
 
@@ -101,7 +120,9 @@ const Contact = () => {
           <div>
             <label
               htmlFor="subject"
-              className={`block text-lg font-medium mb-2 ${isDarkMode ? "text-white" : "text-gray-800"}`}
+              className={`block text-lg font-medium mb-2 ${
+                isDarkMode ? "text-white" : "text-gray-800"
+              }`}
             >
               {t("subjectContact")}
             </label>
@@ -110,8 +131,11 @@ const Contact = () => {
               id="subject"
               name="subject"
               required
-              className={`w-full px-4 py-3 bg-transparent border-b-2 focus:outline-none focus:border-2 focus:border-green-400 rounded-xl ${isDarkMode ? "border-green-400 text-white" : "border-green-400 text-gray-800"
-                }`}
+              className={`w-full px-4 py-3 bg-transparent border-b-2 focus:outline-none focus:border-2 focus:border-green-400 rounded-xl ${
+                isDarkMode
+                  ? "border-green-400 text-white"
+                  : "border-green-400 text-gray-800"
+              }`}
             />
           </div>
 
@@ -119,7 +143,9 @@ const Contact = () => {
           <div>
             <label
               htmlFor="message"
-              className={`block text-lg font-medium mb-2 ${isDarkMode ? "text-white" : "text-gray-800"}`}
+              className={`block text-lg font-medium mb-2 ${
+                isDarkMode ? "text-white" : "text-gray-800"
+              }`}
             >
               {t("messageContact")}
             </label>
@@ -128,8 +154,11 @@ const Contact = () => {
               name="message"
               rows="5"
               required
-              className={`w-full px-4 py-3 bg-transparent border-b-2 focus:outline-none focus:border-2 focus:border-green-400 rounded-xl ${isDarkMode ? "border-green-400 text-white" : "border-green-400 text-gray-800"
-                }`}
+              className={`w-full px-4 py-3 bg-transparent border-b-2 focus:outline-none focus:border-2 focus:border-green-400 rounded-xl ${
+                isDarkMode
+                  ? "border-green-400 text-white"
+                  : "border-green-400 text-gray-800"
+              }`}
             />
           </div>
 
