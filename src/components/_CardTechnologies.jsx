@@ -1,6 +1,6 @@
 import React from "react";
-import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaGitAlt, FaFigma } from "react-icons/fa";
-import { SiJavascript, SiRefinedgithub, SiTailwindcss } from "react-icons/si";
+import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaGitAlt } from "react-icons/fa";
+import { SiJavascript, SiRefinedgithub, SiTailwindcss, SiPostman } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 
 const CardTechnologies = ({ isDarkMode }) => {
@@ -14,7 +14,7 @@ const CardTechnologies = ({ isDarkMode }) => {
     { id: 7, name: "Git", icon: <FaGitAlt /> },
     { id: 8, name: "Tailwind", icon: <SiTailwindcss /> },
     { id: 9, name: "PostgreSQL", icon: <BiLogoPostgresql /> },
-    { id: 10, name: "Figma", icon: <FaFigma /> },
+    { id: 10, name: "Postman", icon: <SiPostman  /> },
   ];
 
   return (
