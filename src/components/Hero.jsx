@@ -47,9 +47,9 @@ const Hero = () => {
           </a>
         </div>
         <div className={`mt-12 flex flex-col items-center justify-center animate-bounce ${isDarkMode ? 'text-[#f9fefa]' : 'text-[#1A8A51]'}`}>
-            <CiDesktopMouse2 className="text-4xl" />
-            <p className="mt-2 text-lg lato-thin">
-                {t("heroMouseText")}</p>
+          <CiDesktopMouse2 className="text-4xl" />
+          <p className="mt-2 text-lg lato-thin">
+            {t("heroMouseText")}</p>
         </div>
       </div>
     </section>
