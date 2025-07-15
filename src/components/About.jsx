@@ -9,11 +9,10 @@ const About = () => {
     <section
       id="sobre"
       className={`pt-32 pb-20 bg-primary-100 min-h-screen flex items-center 
-            ${
-              isDarkMode
-                ? "bg-gradient-to-b from-[#101828] to-[#1A8A51]"
-                : "bg-gradient-to-b from-[#ffffff] to-[#1A8A51]"
-            }`}
+            ${isDarkMode
+          ? "bg-gradient-to-b from-[#101828] to-[#1A8A51]"
+          : "bg-gradient-to-b from-[#ffffff] to-[#1A8A51]"
+        }`}
     >
       <div className="container mx-auto px-4 sm:px-8 md:px-16 flex flex-col md:flex-row items-center justify-center">
         {/* Texto */}
@@ -34,6 +33,7 @@ const About = () => {
             {t("aboutTextCourse")} <br />
             {t("aboutTextInterested")} <br />
             {t("aboutTextSeeking")} <br />
+            {t("aboutVolunteerWork")} <br />
           </p>
         </div>
 
