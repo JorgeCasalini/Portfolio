@@ -4,6 +4,18 @@ html {
   scroll-behavior: smooth;
 }
 
+::selection {
+  background-color: transparent !important;
+  color: #05df72 !important;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background-color: transparent !important;
+  color: #05df72 !important;
+  text-shadow: none;
+}
+
 /*Fonte Alegreya*/
 .caveat{
   font-family:"Caveat", cursive, sans-serif;
