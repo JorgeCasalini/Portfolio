@@ -34,7 +34,7 @@ const About = () => {
             {t("aboutTextInterested")} <br />
             {t("aboutTextSeeking")} <br />
             {t("aboutVolunteerWork")}
-            <a href="https://www.instagram.com/ipecode/" target="_blanck">IpêCode</a><br />
+            <a href="https://www.instagram.com/ipecode/" target="_blanck" className="hover:text-[#05df72] transition-colors duration-300">IpêCode.</a><br />
           </p>
         </div>
 
