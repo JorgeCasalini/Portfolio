@@ -9,11 +9,11 @@ const TextAnimationSkills = () => {
     >
       <div className="inline-block animate-scroll">
         <span className="text-2xl md:text-4xl font-bold mx-4 encode-sans-semi-condensed-bold">
-          React • Node.js • HTML • CSS • JavaScript • GitHub • Git • Tailwind •
+          React • Node.js • ExpressJS • NestJS • HTML • CSS • JavaScript • GitHub • Git • Tailwind •
           Bootstrap • PostgreSQL • Figma • Postman •
         </span>
         <span className="text-2xl md:text-4xl font-bold mx-4 encode-sans-semi-condensed-bold">
-          React • Node.js • HTML • CSS • JavaScript • GitHub • Git • Tailwind •
+          React • Node.js • ExpressJS • NestJS • HTML • CSS • JavaScript • GitHub • Git • Tailwind •
           Bootstrap • PostgreSQL • Figma • Postman •
         </span>
       </div>
