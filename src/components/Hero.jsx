@@ -10,13 +10,13 @@ const Hero = () => {
 
   React.useEffect(() => {
     AOS.init();
-    AOS.refresh(); // Reinicializa AOS após a mudança de tema
+    AOS.refresh();
   }, [isDarkMode]);
 
   return (
     <section
       id="hero"
-      className={`min-h-screen flex items-center justify-center ${isDarkMode ? 'bg-gradient-to-b from-[#1A8A51] to-[#101828]' : 'bg-gradient-to-b from-[#1A8A51] to-[#f9fefa]'} text-white`}
+      className={`min-h-screen flex items-center justify-center ${isDarkMode ? 'bg-gradient-to-b from-[#1A8A51] to-[#101828]' : 'bg-gradient-to-b from-[#1A8A51] to-[#f5f6f6]'} text-white`}
     >
       <div className="text-center">
         {/* Texto principal */}
