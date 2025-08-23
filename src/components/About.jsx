@@ -11,7 +11,7 @@ const About = () => {
       className={`pt-32 pb-20 bg-primary-100 min-h-screen flex items-center 
             ${isDarkMode
           ? "bg-gradient-to-b from-[#101828] to-[#1A8A51]"
-          : "bg-gradient-to-b from-[#ffffff] to-[#1A8A51]"
+          : "bg-gradient-to-b from-[#f5f6f6] to-[#1A8A51]"
         }`}
     >
       <div className="container mx-auto px-4 sm:px-8 md:px-16 flex flex-col md:flex-row items-center justify-center">
@@ -32,7 +32,6 @@ const About = () => {
             {t("aboutTextDev")} <br />
             {t("aboutTextCourse")} <br />
             {t("aboutTextInterested")} <br />
-            {t("aboutTextSeeking")} <br />
             {t("aboutVolunteerWork")}
             <a href="https://www.instagram.com/ipecode/" target="_blanck" className="hover:text-[#05df72] transition-colors duration-300">IpêCode.</a><br />
           </p>
