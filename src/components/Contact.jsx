@@ -44,7 +44,7 @@ const Contact = () => {
             id="contato"
             className={`pt-32 pb-20 min-h-screen ${isDarkMode
                 ? "bg-gradient-to-b from-[#1A8A51] to-[#101828]"
-                : "bg-gradient-to-b from-[#1A8A51] to-[#FFFFFF]"
+                : "bg-gradient-to-b from-[#1A8A51] to-[#f5f6f6]"
                 }`}
         >
             <div className="container mx-auto px-4 sm:px-8 md:px-16">
