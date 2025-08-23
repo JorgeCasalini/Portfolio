@@ -13,11 +13,11 @@ const Footer = () => {
 
     return (
         <footer
-            className={`py-6 text-center border-t ${isDarkMode ? "border-gray-800 bg-primary-950 text-white" : "border-gray-200 bg-[#ddfbeb] text-gray-800"}`}
+            className={`py-6 text-center border-t ${isDarkMode ? "border-gray-800 bg-primary-950 text-white" : "border-gray-200 bg-[#dbe8e0] text-gray-800"}`}
         >
             <div className="container mx-auto px-4">
                 <p className="text-sm lato-thin">
-                     {getCurrentYear()} {t("footerText")}
+                    {getCurrentYear()} {t("footerText")}
                 </p>
             </div>
         </footer>
